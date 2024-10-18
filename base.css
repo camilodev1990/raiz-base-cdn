@@ -1,0 +1,44 @@
+/*archivo para base de proyecto*/
+
+/*incluyendo fuente lato y montserrat de google fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/*configuracion inicial de bordes*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Estableciendo el tamaño base de la fuente - osea la medida de 1 rem = 16px */
+html {
+	font-size: 16px;
+}
+
+/* Aplicando Lato para el texto general */
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 1rem; 
+	line-height: 1.5; /* Espaciado entre líneas */
+}
+
+/* Para títulos y botones */
+h1 {
+	font-family: 'Montserrat', sans-serif; 
+	font-size: 2rem; /* 32px si el tamaño de fuente base es 16px */
+	margin-bottom: 1rem; /* Espacio inferior */
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif; 
+	font-size: 1.5rem; /* 24px */
+	margin-bottom: 0.75rem; /* Espacio inferior */
+}
+
+h3 {
+	font-family: 'Montserrat', sans-serif; 
+	font-size: 1.25rem; /* 20px */
+	margin-bottom: 0.5rem; /* Espacio inferior */
+}
